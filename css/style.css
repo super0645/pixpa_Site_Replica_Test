@@ -598,7 +598,7 @@ a{
 }
 /* phone adjustments */
 @media (max-width: 550px) {
-        .main_box {
+    .main_box {
         width: 100%;
         height: 450px;
         margin: 54px 0;
@@ -608,20 +608,127 @@ a{
         flex-wrap: wrap;
         gap: 10px;
     }
-        .main_box .box {
+    .main_box .box {
         margin: 0;
         width: 100%;
         height: 100px;
         background-color: #F2F2EB;
     }
-        .main_box .box .titolo {
+    .main_box .box .titolo {
         font-size: 14px;
         margin: 32px 8px 8px 8px;
     }
-        .main_box .box .testo {
+    .main_box .box .testo {
         font-size: 8px;
         margin: 8px 8px;
         line-height: 1.8;
+    }
+    .container {
+        width: 100%;
+        margin: 100px 0 0 0;
+        height: fit-content;
+        display: block;
+    }
+    .container .img {
+        width: 100%;
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 200%;
+    }
+    .container .text_box{
+        font-size: 35px;
+        height: fit-content;
+        width: 100%;
+    }
+    .container .text_box p{
+        padding: 50px 30px;
+        line-height: 1.37;
+    }
+    .photo_box {
+        width: 100%;
+        height: 630px;
+        background-size: 360%;
+        background-repeat: no-repeat;
+    }
+    .content_box {
+        width: 100%;
+        height: fit-content;
+        margin: 45px auto 50px auto;
+        display: block;
+    }
+    .content_box div {
+        width: 90%;
+        height: fit-content;
+        margin: 0 auto 40px auto;
+    }
+    .content_box .left_container {
+        font-size: 16px;
+    }
+    .content_box .right_container{
+        font-size: 23px;
+    }
+    .box_section {
+        width: 100%;
+        height: fit-content;
+        background-color: #F2F2EB;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .box_section .text {
+        width: 100%;
+        height: fit-content;
+        margin: 0;
+        font-size: 45px;
+        padding-bottom: 60px;
+        text-align: center;
+    }
+    .box_section .content {
+        width: 100%;
+        height: fit-content;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    .footer {
+        width: 100%;
+        padding: 100px 0 30px 0;
+    }
+    .footer .title{
+        font-size: 100px
+    }
+    .header_nav{
+        display: none;
+        width: 0px;
+    }
+    .header_bar{
+        position: static;
+    }
+    .main_image {
+        width: 100%;
+        background-size: 300%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .main_image .color {
+        padding: 50px 0 50px 0;
+        flex-direction: column;
+    }
+    .main_image .color .center {
+        padding: 50px 40px 50px 40px;
+        text-align: center;
+    }
+    .main_image .color .input {
+        margin: 0 auto;
+    }
+    .main_image .input_button {
+        font-size: 14px;
+        margin: 30px auto;
+        padding: 0 30px;
     }
 }
 
