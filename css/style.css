@@ -333,7 +333,6 @@ a{
     /* background-color: #00f; */
     display: block;
     width: 10%;
-    font-size: 18px;
     text-align: end;
 }
 
@@ -700,6 +699,7 @@ a{
     }
     .main_award .box{
         height: 130px;
+        font-size: 15px;
     }
     .main_award .box .name{
         width: 32%;
