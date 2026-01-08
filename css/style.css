@@ -467,6 +467,12 @@ a{
     background-size: 138%;
     background-position: center;
     background-repeat: no-repeat;
+    filter: grayscale(100%);
+    transition: all 0.4s ease;
+}
+.container .img:hover{
+    filter: grayscale(0%);
+    background-size: 258%;
 }
 
 .container .text_box{
@@ -539,7 +545,14 @@ a{
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
+    transition: all 0.65s ease;
 }
+
+.box_section .content .img:hover{
+    filter: grayscale(100%);
+}
+
+
 .box_section .content .photo_1{
     background-image: url("../img/foto3.jpg");
 }
